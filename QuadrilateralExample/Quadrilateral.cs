@@ -20,13 +20,18 @@ namespace QuadrilateralExample
            
         }
 
-        public Quadrilateral (int s1, int s2, int s3, int s4)
+        public Quadrilateral(int s1, int s2, int s3, int s4)
         {
             side1 = s1;
             side2 = s2;
             side3 = s3;
             side4 = s4;
         }   
+
+        public Quadrilateral()
+        {
+
+        }
        
     }
 }

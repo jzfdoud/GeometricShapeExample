@@ -6,9 +6,11 @@ namespace QuadrilateralExample
 {
      public class Program
     {
-        static void Main(string[] args) {
-            
-           
+        static void Main(string[] args) 
+        {
+
+            var kensQuad = new Quadrilateral();
+            kensQuad.Perimeter();
 
 
         }
